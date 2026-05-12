@@ -311,14 +311,14 @@
                     <svg width="100%" height="100%" viewBox="0 0 320 384" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#FFE8C8"/>
-                                <stop offset="100%" style="stop-color:#C8A078"/>
+                                <stop offset="0%" style="stop-color:#FFFBF5"/>
+                                <stop offset="100%" style="stop-color:#FF8C42"/>
                             </linearGradient>
                         </defs>
                         <rect width="320" height="384" fill="url(#heroBg)"/>
                         <!-- Person shape -->
-                        <circle cx="160" cy="108" r="62" fill="#B8926A"/>
-                        <path d="M50 384 Q50 255, 160 242 Q270 255, 270 384Z" fill="#B8926A"/>
+                        <circle cx="160" cy="108" r="62" fill="#FF6B35"/>
+                        <path d="M50 384 Q50 255, 160 242 Q270 255, 270 384Z" fill="#FF6B35"/>
                         <!-- Bowl & food -->
                         <ellipse cx="160" cy="316" rx="70" ry="24" fill="#FF6B35" opacity=".6"/>
                         <ellipse cx="160" cy="304" rx="65" ry="19" fill="#FFFBF5"/>
@@ -1272,7 +1272,7 @@
         currentSlide = index;
         track.style.transform = 'translateX(-' + (index * 100) + '%)';
         document.querySelectorAll('[id^="dot-"]').forEach(function(dot, i) {
-            dot.style.backgroundColor = i === index ? '#FF6B35' : '#C9AD92';
+            dot.style.backgroundColor = i === index ? '#FF6B35' : '#A0A0B8';
             dot.style.transform = i === index ? 'scale(1.3)' : 'scale(1)';
         });
     }
